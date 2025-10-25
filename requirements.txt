@@ -1,0 +1,7 @@
+fastmcp==2.12.5
+httpx==0.28.1
+numpy==2.3.4
+redis==6.4.0
+redisvl==0.10.0
+requests==2.32.5
+uvicorn==0.38.0

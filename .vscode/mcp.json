@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"mumbai-travel-assistant": {
+			"url": "http://127.0.0.1:9000/mcp",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
