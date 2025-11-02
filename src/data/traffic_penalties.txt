@@ -1,0 +1,207 @@
+Sec 4(1)/181 MVA.,Driving Without valid License Below 16 Years of Age,₹5000
+Sec 19 to 20/182 (1) MVA.,License Disqualified Driver,₹10000
+Sec 3(1)/181 MVA.,Driving Without License,₹5000
+CMVR 3(C)/177 MVA.,Driving without L Board,1st time ₹500 then ₹1500
+CMVR 104(1)/177 MVA.,Driving Without Red Reflectors,₹1000
+MMVR 21(16)/177.,Driver Smoking while on duty (Motor Cab),1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Number Plate Bears Personnel Name or Pictures or Symbols etc.,1st time ₹500 then ₹1500
+CMVR 51/177 MVA.,Illegal Number Plate Similar To DADA/ MAMA/ BABA Etc.,₹1000
+Sec 119/177 MVA.,Mandatory traffic sign boards not obeyed,1st time ₹500 then ₹1500
+Sec 146/196 MVA.,Without valid Insurance (Driver),1st time ₹2000 then ₹4000
+Sec 146/196 MVA.,Without valid Insurance (Owner or person in authorized possesion of the Vehicle.),1st time ₹2000 then ₹4000
+Sec 39/192(1) MVA.,Without valid Registration Any Vehicle (Driver),1st time ₹2000 then ₹5000
+Sec 39/192(1) MVA.,Without valid Registration Any Vehicle (Owner),1st time ₹2000 then ₹5000
+Sec 122/177 MVA.,Causing danger / obstructions or undue inconvenience to other users of public place or to the passengers by allowing the vehicle to be abandoned or to remain at rest on any public place.,1st time ₹500 then ₹1500
+CMVR 119(2)/177 MVA.,Vehicle fitted with any multi toned horn giving a succession of different notes or with anyother sound producing device giving an unduly harsh / shrill / loud or alarming noise.,1st time ₹500 then ₹1500
+Sec 125/177 MVA.,Obstruction to Driver / Front seating,1st time ₹500 then ₹1500
+Sec 123/177 MVA.,No Person to be carried on a running board or on the top or on the bonnet of a motor vehicle.,1st time ₹500 then ₹1500
+Sec 186 MVA.,Driver unfit (Physically/Mentally),1st time ₹1000 then ₹2000
+MMVR 235/177 MVA.,Dazzling Light,1st time ₹500 then ₹1500
+CMVR 105/177 MVA.,Without Light after sunset,1st time ₹500 then ₹1500
+MMVR 236(1)/177 MVA.,Light not visible,1st time ₹500 then ₹1500
+MMVR 20(1)(x)/177 MVA.,Unclean vehicle (public service vehicle),1st time ₹500 then ₹1500
+Sec 6(1)/179 MVA.,Driver found with two licenses in his name,₹750
+MMVR 239/177 MVA.,Jumping signal,1st time ₹500 then ₹1500
+Sec 189 MVA.,Racing / Speed test violation (Driver),1st time ₹5000 then ₹10000
+Sec 130(1)/177 MVA.,Failed to Produce valid License,1st time ₹500 then ₹1500
+MMVR 20(1)(viii)/177 MVA.,Driver without Khaki uniform (PSV other than M.CAB),1st time ₹500 then ₹1500
+Sec 194A MVA - (Extra 7).,Excess passengers 7 (Driver),₹1400
+MMVR 163/177 MVA.,Dangerous projection,1st time ₹500 then ₹1500
+MMVR 168/177 MVA.,Use of military/ police colours & registration mark prohibited,1st time ₹500 then ₹1500
+MMVR 21(17)/177 MVA.,Misbehaviour towards passenger & others (motor cab),1st time ₹500 then ₹1500
+MMVR 20(1)(i)/177 MVA.,Allowing any person animal or thing to be in the space reserved for driver (PSV other than M.CAB),1st time ₹500 then ₹1500
+MMVR 20(1)(ii)/177 MVA.,Shouting for passenger (PSV other than M.CAB),1st time ₹500 then ₹1500
+CMVR 40/177 MVA.,Identification card Issued by Dealer not produced,1st time ₹500 then ₹1500
+CMVR 39(2)/177 MVA.,Original T.C. Not produced,1st time ₹500 then ₹1500
+CMVR 117/177 MVA.,Speedo Meter Wire fraud detected,1st time ₹500 then ₹1500
+MMVR 54(3)/177 MVA.,F.T.Form not submitted to local RTO within seven days of arrival in M.S. (Only White Number Plate),1st time ₹500 then ₹1500
+Sec 184C MVA (2-3 Wheeler).,Person driving the vehicle only to extent of use of handheld communication devices (2-3 Wheeler),1st time ₹1000 then ₹10000
+Sec 184C MVA (LMV).,Person driving the vehicle only to extent of use of handheld communication devices (LMV),1st time ₹2000 then ₹10000
+Sec 112/183(1) MVA (2-3 wheeler).,Speed violating by driver (2-3 wheeler),₹1000
+Sec 112/183(1) MVA (Tractor).,Speed violating by driver (Tractor),₹1500
+Sec 112/183(1) MVA (LMV).,Offence, Section and Fine Speed violating by driver (LMV),₹2000
+Sec 112/183(1) MVA (MMV - HMV).,Speed violating by driver (MMV - HMV),₹4000
+MMVR 202/177MVA.,Unsafe-dangerous transportation Of goods,1st time ₹500 then ₹1500
+CMVR 93(8)/177 MVA.,Unsafe goods beyond body,1st time ₹500 then ₹1500
+CMVR 100(2)/177 MVA.,Tinted glasses /Black Film,1st time ₹500 then ₹1500
+MMVR 165/177 MVA.,Without Mud guard,1st time ₹500 then ₹1500
+MMVR 161/177 MVA.,Without Side mirror,1st time ₹500 then ₹1500
+MMVR 232/177 MVA.,Without Silencer,1st time ₹500 then ₹1500
+CMVR 94(3)/177 MVA.,Tyres not in good and sound condition,1st time ₹500 then ₹1500
+Sec 198 MVA.,Unauthorized Interference with vehicle,₹1000
+CMVR 101/177 MVA.,Driving Without Wiper,1st time ₹500 then ₹1500
+MMVR 21(5)/177 MVA.,Stop out of stand,1st time ₹500 then ₹1500
+MMVR 21(14)/177 MVA.,Insufficient fuel (Motor Cab),1st time ₹500 then ₹1500
+MMVR 21(7)/177 MVA.,Meter flag down on stand (Motor Cab),1st time ₹500 then ₹1500
+MMVR 21(10)/177 MVA.,Carry cleaner in permit vehicle (Motor Cab),1st time ₹500 then ₹1500
+MMVR 146/177.,Faulty Meter (Motor Cab),1st time ₹500 then ₹1500
+MMVR 21(18)/177 MVA RW S.O. 415(E) dt.8/6/1989.,Without Prescribed Uniform (Tourist Cab),1st time ₹500 then ₹1500
+MMVR 21(13)/177.,Shouting for passenger (Motor Cab),1st time ₹500 then ₹1500
+Sec 5/180 MVA.,Permitting Driver to Drive MV Without License (Owner),₹5000
+CMVR 139/177 MVA.,Failed to Produce Documents Within 15 Days of Demand in Writing,1st time ₹500 then ₹1500
+MMVR 23(1)/177 MVA.,Obstruction to driver by carrying animal/things (Goods Carrier),1st time ₹500 then ₹1500
+MMVR 21(18)/177 MVA.,Cab/ Taxi driver without white Uniform (Motor Cab),1st time ₹500 then ₹1500
+MMVR 134(1)/177 MVA.,Using word / figure / drawing / sticker on vehicle (press / police / polite / advocate / etc.) advertisement on transport MV w/o RTO permission.,1st time ₹500 then ₹1500
+MMVR 249/177 MVA.,HMV without cleaner,1st time ₹500 then ₹1500
+Sec 184C MVA (Other Vehicles).,Person driving the vehicle only to extent of use of handheld communication devices (Other Vehicles),1st time ₹4000 then ₹10000
+Sec 119/177 MVA.,One way traffic sign not obeyed,1st time ₹500 then ₹1500
+Sec 128(1)/194(C) MVA.,Drive a motor cycle with triple seat. (Driver),₹1000
+Sec 194F MVA.,Sounds the horn needlessly or continuosly or more than necessary to ensure safety.,1st time ₹1000 then ₹2000
+Sec 179(1) MVA.,Disobedience of Police order/direction,₹750
+MVDR 22(1)(viii)/177A MVA.,Stopping Vehicle on yellow box marked on road,Will be sent to court
+Sec 194F MVA.,Sound the horn in an area with a traffic sign prohibiting use of a horn.,1st time ₹1000 then ₹2000
+MMVR 20(1)(ix)/177 MVA.,Failed to display valid badge (PSV other than M.CAB),1st time ₹500 then ₹1500
+MMVR 226/177 MVA.,Unsafe Towing while towing another vehicle,1st time ₹500 then ₹1500
+CMVR 102(2)/177 MVA.,Without Red Rear Lamp or light,₹1000
+MMVR 4/177 MVA.,Valid Badge not in the name of Driver of passenger carrier.,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Visibility of number plate on front and rear of vehicle,1st time ₹500 then ₹1500
+MMVR 162/177 MVA.,Driver found watching digital motion pictures/videos while driving (Except route navigation),1st time ₹500 then ₹1500
+MMVR 239/177 MVA.,Police stop violation,1st time ₹500 then ₹1500
+Sec 178(3) MVA.,Refusal to ply auto Rickshaw or to carry passenger,₹50
+Sec 190(2) MVA (Other than 2-3 Wheeler).,Road safety standards violation (Other than 2-3 Wheeler) (Driver),1st time ₹2000 then ₹5000
+Sec 194A MVA - (Extra 2).,Excess passengers 2 (Owner or person in authorized possesion of the Vehicle.),₹400
+MMVR 229(2)/177 MVA.,Unsafe goods beyond body No White reflector disc & additional Red lamp attached at the rear.,₹1000
+CMVR 93(4)/177 MVA.,Load extends to height beyond Limits/projection of load above 3.8 meters Transport Vehicles.,1st time ₹500 then ₹1500
+CMVR 125 r/w S.O. 1365(E) Dt. 19/12/2004/177 MVA.,Right side door not locked - Rickshaw,1st time ₹500 then ₹1500
+MMVR 21(19)/177 MVA.,Unclean vehicle (Motor Cab),1st time ₹500 then ₹1500
+CMVR 103/177 MVA.,Driving Without indicator,1st time ₹500 then ₹1500
+CMVR 3(b)/177 MVA.,Learner Driver not accompanied with trainer,1st time ₹500 then ₹1500
+Sec 129/194(D) MVA.,Riding without helmet by both Driver or Pillion (Driver),₹1000
+Sec 194A MVA - (Extra 3).,Excess passengers 3 (Driver),₹600
+Sec 194A MVA - (Extra 3).,Excess passengers 3 (Owner or person in authorized possesion of the Vehicle.),₹600
+Sec 194A MVA - (Extra 4).,Excess passengers 4 (Driver),₹800
+Sec 56/39/192 MVA.,Without valid fitness certificate (Driver),1st time ₹2000 then ₹5000
+Sec 56/39/192 MVA.,Without valid fitness certificate (Owner),1st time ₹2000 then ₹5000
+Sec 66 (1) r/w Sec 192 (A) MVA.,Without valid permit (Driver),₹10000
+Sec 66 (1) r/w Sec 192 (A) MVA.,Without valid permit (Owner),₹10000
+MMVR 231(1)/177 MVA.,Loud music played in vehicle,1st time ₹500 then ₹1500
+CMVR 9(3)/177 MVA.,Driver failed to get endorsement in his Driving License from RTO for Transportation of Hazardous or Dangerous goods.,1st time ₹500 then ₹1500
+Sec 190(1) MVA.,Driving of defective motor vehicle,Will be sent to court
+Sec 190(3) MVA.,Carrying Hazardous or Dangerous Goods in contravention to the MV ACT and CMVR Provision,Will be sent to court
+Sec 197 MVA.,Custody of Motor Vehicle without consent of Owner or Removal of Vehicle without legal authority,Will be sent to court
+MVDR 9/177A MVA.,Not Slowing Down at Junction and Zebra Crossing,Will be sent to court
+MVDR 6(1)/177A MVA.,Lane cutting,Will be sent to court
+MMVR 23(1)/177 MVA.,Excess number of persons sitting in cabin of goods carriage,1st time ₹500 then ₹1500
+MVDR 4/122 177A MVA.,Wrong side driving,Will be sent to court
+MVDR 14(9)/177A MVA.,Overtaking obstructed,Will be sent to court
+MVDR 37(2) 177A MVA.,NO use of mobile phone by trainer while training learner driver,Will be sent to court
+MVDR 14(5)(d)/177A MVA.,Overtaking on a bend/corner/turning,Will be sent to court
+MVDR 19(2)(ii)/177A MVA.,Overtaking within barriers of a railway crossing area,Will be sent to court
+MVDR 14(5)(e)/177A MVA.,Overtaking at junctions/intersections/zebra crossing,Will be sent to court
+MVDR 14(5)(h)/177A MVA.,Overtaking in School/Hospital/Construction Zone,Will be sent to court
+MMVR 224/177 MVA.,Restrictions on driving with gear disengaged/Driving with neutral gear in ghats.,1st time ₹500 then ₹1500
+Sec 84(G) r/w 177 MVA.,Permit Holder MV - Name and Address of the operator not painted or firmly affixed to every vehicle,1st time ₹500 then ₹1500
+CMVR 115(7)/177 MVA.,Failed to produce valid PUCC,1st time ₹500 then ₹1500
+MMVR 20(1) (xvi)/177 MVA.,Failed to produce valid driving license on demand (public service vehicle) Driver permitted to produce within 48 hours of demand,1st time ₹500 then ₹1500
+MMVR 108/177 MVA.,Carriage of persons in goods vehicle,1st time ₹500 then ₹1500
+MMVR 20(1)(vi)/177 MVA.,Smoking while on duty (PSV other than M.CAB),1st time ₹500 then ₹1500
+MMVR 20(1)(vii)/177 MVA.,Misbehaviour towards passenger & others (PSV other than M.CAB),1st time ₹500 then ₹1500
+MMVR 20(1)(xii)/177 MVA.,Unnecessarily delay the journey (PSV other than M.CAB),1st time ₹500 then ₹1500
+Sec 120/177 MVA.,Motor Vehicle with left hand drive without displaying mechanical or signalling device board at the rear side (owner & driver both),1st time ₹500 then ₹1500
+MMVR 24(2)/177 MVA.,Failed to display Badge (HMV passenger carrier),1st time ₹500 then ₹1500
+CMVR 43/177 MVA.,Form No. 19 duplicate copy not produced.,1st time ₹500 then ₹1500
+Sec 178(3) MVA.,Refusal to ply taxi / bus or to carry passenger,₹200
+Sec 194A MVA - (Extra 1).,Excess passenger 1 (Owner or person in authorized possesion of the Vehicle.),₹200
+Sec 194A MVA - (Extra 2).,Excess passengers 2 (Driver),₹400
+Sec 194B(1) MVA.,Without Seatbelt,₹200
+MMVR 228/177 MVA.,Driving vehicle on Footpath/Cycle track without Permission of Police Officer,1st time ₹500 then ₹1500
+MMVR 236/177 MVA.,Hiding fully/partly number plate by placing load/ other goods/,1st time ₹500 then ₹1500
+MMVR 237/177 MVA.,Not Stopping before stop line,1st time ₹500 then ₹1500
+Sec 184 MVA.,Dangerous driving,Will be sent to court
+MVDR 14(7)/177A MVA.,Giving right turn indicator to following vehicle for overtaking,Will be sent to court
+MVDR 20(2)/177A MVA.,Overtaking/U-Turn/drive backward in a tunnel,Will be sent to court
+MVDR 4(5)6(2)/177A MVA.,Heavy vehicles continuously driving in right lane,Will be sent to court
+MVDR 6(4)/177A MVA.,Driver crossing white/yellow Solid lane lines at time of overtaking,Will be sent to court
+MVDR 11(1)/177A MVA.,Turning left/right without hand signal indication,Will be sent to court
+MVDR 16(4)/177A MVA.,Driving slowly without good and sufficient reason to impede normal traffic flow,Will be sent to court
+MVDR 17(2)/177A MVA.,Applying sudden brake without genuine reason,Will be sent to court
+MVDR 22(2)(1)/177A MVA.,Parking the vehicle opposite another MV or as obstruction to other vehicle,Will be sent to court
+MVDR 22(2)(s)/177A MVA.,No Parking,Will be sent to court
+Sec 194A MVA - (Extra 7).,Excess passengers 7 (Owner or person in authorized possesion of the Vehicle.),₹1400
+Sec 194A MVA - (Extra 8).,Excess passengers 8 (Driver),₹1600
+Sec 194B(2) MVA.,Child up to 14 years age not provided seat with appropriate child restraint system (Driver),₹200
+Sec 194B(2) MVA.,Child up to 14 years age not provided seat with appropriate child restraint system (Owner or person in authorized possesion of the Vehicle.),₹200
+MVDR 22(2)(g)/177A MVA.,Parking the vehicle in a tunnel,Will be sent to court
+MVDR 22(2)(K)/177A MVA.,Parking the vehicle away from the edge of the footpath,Will be sent to court
+MVDR 22(2)(h)/177A MVA.,Parking the vehicle in bus lane,Will be sent to court
+MVDR 22(2)(f)/177A MVA.,Parking the vehicle near bus stop / at educational institution / hospital entry or if blocking traffic sign,Will be sent to court
+MVDR 22(2)(d)/177A MVA.,Parking the vehicle where stopping prohibited/ Vehicle abandoned on road,Will be sent to court
+MVDR 22(2)(i)/177A MVA.,Parking the vehicle in front of entrance or exit of property,Will be sent to court
+MVDR 22(2)(m)/177A MVA.,Parking the vehicle obstructing other vehicle or cause inconvenience to any person,Will be sent to court
+MVDR 22(2)(j)/177A MVA.,Parking Vehicle within 50 mtr from the edge of Junction or inter section,Will be sent to court
+MVDR 22(2)(s)/177A MVA.,Parking the vehicle in "No Parking" area,Will be sent to court
+MVDR 22(2)(j)/177A MVA.,Park Vehicle on Continuous yellow line Painted on curve side on Road,Will be sent to court
+MVDR 22(2)(0)/177A MVA.,Park Vehicle in permitted parking place beyond permitted time limit,Will be sent to court
+MVDR 22(2)(P)/177A MVA.,Parked vehicle is other than permitted specified Category,Will be sent to court
+MVDR 22(2)(R)/177A MVA.,Not Parking Vehicle as designated in parking lot,Will be sent to court
+MVDR 22(1)(v)/177A MVA.,Stopping Vehicle on a level Crossing,Will be sent to court
+Sec 122/177 MVA RW Sec 127 MVA (Towing).,Causing danger / obstructions or undue inconvenience to other users of public place or to the passengers by allowing the vehicle to be abandoned or to remain at rest on any public place. (Towing),1st time ₹500 then ₹1500
+MMVR 230/177 MVA..,Restrictions to carry unpacked dangerous substances/explosive/highly inflammable substance on Public Service Vehicle,1st time ₹500 then ₹1500
+MVDR 22(2)(s)/177A MVA.,NO PARKING (Clamping),Will be sent to court
+MVDR 22(1)(ix)/177A MVA.,Stopping the vehicle at mandatory "No stopping" sign,Will be sent to court
+MVDR 20 (3)/177A MVA.,Parking/Stopping vehicle in a tunnel without genuine reason,Will be sent to court
+MVDR 22(1)(i)/177A MVA.,Stopping the vehicle at narrow road,Will be sent to court
+MVDR 22(1) (ii)/177A MVA.,Stopping the vehicle near or on a sharp bend,Will be sent to court
+Sec 194E MVA.,Not providing way for emergency vehicles (Fire service / Ambulance & any other emergency vehicle specified by State govt.).,₹10000
+Sec 182(1) MVA.,Driving the vehicle by a person who is disqualified for holding or obtaining driving license.,₹10000
+Sec 185 MVA.,Drunk and Drive,Will be sent to court
+MMVR 233/177 MVA.,Driving backwards/in reverse direction on road/in a parking/any other public place,1st time ₹500 then ₹1500
+Sec 194B(1) MVA.,Without seatbelt other than driver,₹200
+MVDR 14(2)/177A MVA.,Overtaking from left,Will be sent to court
+MVDR 22(2)(n)/177A MVA.,Parking the vehicle alongside another parked vehicle/ Double parking,Will be sent to court
+MVDR 22(2)(c)/177A MVA.,Parking the vehicle on footpath / cycle track & zebra crossing,Will be sent to court
+MVDR 22(2)(b)/177A MVA.,Parking Vehicle on main road where notified speed limit is 50KM per hour or more,Will be sent to court
+MVDR 22(1) (iii)/177A MVA.,Stopping Vehicle in an acceleration /Deceleration lane,Will be sent to court
+MVDR 22(1)(iv)/177A MVA.,Stopping the vehicle on 5 meters before pedestrian crossing,Will be sent to court
+MVDR 22(1)(vi)/177A MVA.,Stopping Vehicle 5 Mtrs or less before light signal or "GIVE WAY" or "STOP SIGN",Will be sent to court
+MVDR 22(1)(vii)/177A MVA.,Stopping the vehicle at bus stand when vehicle is other than bus,Will be sent to court
+CMVR 109/177 MVA.,Without Parking Light,1st time ₹500 then ₹1500
+CMVR 109/177 MVA.,Driving vehicle with parking light on,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Number Plate Broken,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Number Plate of Transport Vehicle Not Displayed at Four Places,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Registration Number of Taxi Not Painted On Dash Board,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Trailers Rear Side Number Plate Not Displayed,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,LMV Number Plate Not at Middle with Illumination,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Rear Side Number Plate of Transport Vehicle Not Illuminated,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Number Plate with Unauthorized Colour,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Registration Number not In Four Digits,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Number Plate of Motor Cycle Not Parallel to Handle Bar,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Displaying / inscribing or writing letter / word / figure / picture or symbol on number plate,1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Driving or parking vehicle on public road without number plate (Vehicle registered but Number plate not displayed.),1st time ₹500 then ₹1500
+CMVR 50/177 MVA.,Number Plate Letters Not In English And Figures Not In Arabic Numerals,1st time ₹500 then ₹1500
+CMVR 51/177 MVA.,Registration Number or Letters Not as Per Prescribed Measurement,1st time ₹500 then ₹1500
+CMVR 92/177 MVA.,Unauthorizedly maintained motor vehicle / allowed to be driven on public road - (Driver),1st time ₹500 then ₹1500
+CMVR 92/177 MVA.,Unauthorizedly maintained motor vehicle/ allowed to be driven on public road - (Owner),1st time ₹500 then ₹1500
+MMVR 233/177 MVA.,Restrictions on driving backwards/in reverse direction,1st time ₹500 then ₹1500
+MMVR 21(18)/177 MVA.,Without Uniform (Non-Meter Tourist/Cab),1st time ₹500 then ₹1500
+MMVR 21(18)/177 MVA.,Without Cab Drivers I-Card (All Cab),1st time ₹500 then ₹1500
+MMVR 162/177 MVA.,TV/video set on dashboard,1st time ₹500 then ₹1500
+MMVR 239/177 MVA.,Police manual signal violation,1st time ₹500 then ₹1500
+Sec 119/177 MVA.,No entry in prescribed time limit period for specific vehicle / No entry on Bridge (2W - 3W - HMV),1st time ₹500 then ₹1500
+Sec 128(1)/194(C) MVA.,Drive a motor cycle with triple seat. (Owner or person in authorized possesion of the Vehicle.),₹1000
+CMVR 50/177 MVA.,Driving or parking vehicle on public road without number plate (Vehicle registered but Number plate not displayed.),1st time ₹500 then ₹1500
+Sec 194A MVA - (Extra 9).,Excess passengers 9 (Owner or person in authorized possesion of the Vehicle.),₹1800
+Sec 194A MVA - (Extra 10).,Excess passengers 10 (Driver),₹2000
+Sec 194A MVA - (Extra 10).,Excess passengers 10 (Owner or person in authorized possesion of the Vehicle.),₹2000
+Sec 194A MVA - (Extra 6).,Excess passengers 6 (Owner or person in authorized possesion of the Vehicle.),₹1200
+Sec 194F MVA.,Drives a Motor vehicle which makes use of a cut out by which exhaust gases are released other than through the silencer,1st time ₹1000 then ₹2000

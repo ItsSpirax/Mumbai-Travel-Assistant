@@ -34,6 +34,13 @@ async def lifespan(app: FastMCP):
             print(f"Redis connection error: {e}")
 
     try:
+        from tools import get_penalty_details
+
+        await get_penalty_details.ensure_penalty_embeddings()
+    except Exception as exc:
+        print(f"Penalty embedding warmup failed: {exc}")
+
+    try:
         yield
     finally:
         if app_state.http_client:

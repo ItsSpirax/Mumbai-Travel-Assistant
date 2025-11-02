@@ -2,6 +2,7 @@
 FROM python:3.13-slim-trixie AS builder
 WORKDIR /app
 COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu --index-url https://download.pytorch.org/whl/cpu
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Final Stage

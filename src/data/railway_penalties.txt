@@ -1,0 +1,31 @@
+,Travelling without proper pass or ticket: Penalty (min ₹250) + Fare Difference,Penalty + Fare Difference. Penalty is also called as Excess Charge. Ordinary single fare for the distance which he has travelled or from the station from which the train started and the excess charge.  Excess charge will be same as difference in fare or ₹250/- whichever is more.  (Example:  Difference in fare is ₹200 then total fine will be 200 + 250 = ₹450  but if difference in fare is ₹300 then total penalty will be  300+300 = ₹600)
+,Travelling in a higher class (First Class) : Penalty (min ₹250) + Fare Difference,
+,Travelling in Handicapped Compartment : ₹500,3 months jail or fine of ₹500/- or both.
+,In local trains travelling in luggage compartment without luggage ticket: Penalty (min ₹250),RPF will take you to the Court. Court will levy the fine.
+,Alarm chain pulling without any valid reason : ₹1000,Imprisonment upto 1 year or fine ₹1000/- or both.
+,Male persons found travelling in ladies compartments : ₹500,"Will be vacated from the coach and if he resists, he will be forcibly removed from the coach. Ticket forfeited and shall also be punishable with a fine which may extend upto ₹500/-"
+,Crossing of railway track : ₹1000,6 months jail or fine ₹1000/- or both
+,Window ticket waitlisted passengers travelling in reserved coaches : Detrained,Will be detrained from the reserved compartments and directed to unreserved coaches
+,Waitlisted 'e-ticket' holders travelling in reserved coaches : Without Ticket : Penalty (min ₹250) + Fare Difference,Will be treated as without ticket and charged as per rules
+,Travelling Roof top or Footboard: ₹500, 3 months jail or fine ₹500/- or both.
+,Adult travelling with half ticket: Penalty (min ₹250) + Fare Difference,
+,Child travelling without ticket : Penalty (min ₹250) + Fare Difference of Half Ticket,
+,In Mumbai Local Travelling in a AC class  by holding First Class Card Ticket : Fare Difference (AC Fare- First Class Fare),
+,In Mumbai Local Travelling in a AC class  by holding First Class Monthly Pass : Without Ticket: Penalty (min ₹250) + Fare Difference,
+,Travelling Fraudulently : ₹1000,Punishment: 6 months jail or fine of ₹1000/- or both.
+,Not having platform Ticket /Expired PF Ticket : ₹250,Validity of the Platform Ticket is 2 hours
+,Passengers travelling without original identity card (For all reserved tickets) : Penalty (min ₹250) ,Original id-card will be treated as travelling without ticket and charged as per rules (in 1 above)
+,Senior citizens travelling without age proof : Concession Difference,"Senior citizens whose age is 60 years and above for men & 58 years and above for women, travelling without age proof will be charged the difference of full fare and the concessional fare"
+,Availing Senior Citizen's concessions but age is below 60 years for men and below 58 years for women : Without Ticket : Penalty (min ₹250) + Fare Difference,"Persons travelling on Senior Citizen's concessions whose age is below 60 years for men and below 58 years for women will be treated as without ticket and charged as per rules(in 1 above). The concession ticket will be forfeited."
+,Concession ticket holder travelling without original certificate : Without Ticket : Penalty (min ₹250) + Fare Difference,"Wherever instructed, the concession ticket holders should carry the respective certificates in original and produce it on demand. Otherwise they will be treated as without ticket and charged as per rules (in 1 above). The concession ticket held by the passenger will be forfeited."
+,Physically challenged persons travelling on concessions without an escort : Without Ticket : Penalty (min ₹250) + Fare Difference,Will be treated as without ticket and charged as per rules (in 1 above)
+,Smoking in railway compartments/premises : ₹200,Shall be punishable with a fine up to ₹200/-
+,Travelling without Super fast surcharge ticket in Super fast trains- (Surcharge  + ₹250),Will be charged with Super fast surcharge and excess charge of ₹250/-
+,Transfer of tickets : Without Ticket : Penalty (min ₹250) + Fare Difference,Forfeiture of ticket and Will be treated as without ticket and charged as per rules
+,Ticket holder travelling on other than booked train: Without Ticket : Penalty (min ₹250) + Fare Difference,"Passengers holding confirmed reserved tickets found travelling by other than booked trains inclusive of suburban trains, will be treated as travelling without ticket"
+,Season ticket holders including First Class Season ticket holders travelling in Reserved coaches of any class: Without Ticket : Penalty (min ₹250) + Fare Difference,"If found travelling, the passengers will be treated as travelling without ticket."
+,Drunkenness or Nuisance and Littering (Throwing Garbage) : ₹100 or ₹250 or ₹500 ,1st offence ₹100 Fine. 2nd & subsequent ₹250 and 1 month imprisonment.
+,Unauthorised Hawking : ₹1000-2000,Punishment: 1 year jail or fine of ₹1000/- to ₹2000/- or both.
+,Bill Pasting on Trains : ₹500,Punishment: 6 months jail or fine ₹500/- or both.
+,Touting : ₹10000,Punishment: 3 years jail or fine ₹10000/- or both.
+,Travelling in Brake van/Luggage van : Penalty( min₹250) + First Class Fare Difference,It is strictly prohibited. Will be treated as travelling without ticket in First Class. Firs Class Fare + Penalty is collected as per rules and will be removed from the carriage.

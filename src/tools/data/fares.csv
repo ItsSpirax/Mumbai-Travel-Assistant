@@ -1,0 +1,573 @@
+VehicleType,Distance_KM,OldFare_Normal_RS,RevisedFare_Normal_RS,OldFare_Midnight_RS,RevisedFare_Midnight_RS
+Black Yellow Taxi,1.5,28,31,35,39
+Black Yellow Taxi,1.6,30,33,37,41
+Black Yellow Taxi,1.7,32,35,40,44
+Black Yellow Taxi,1.8,34,37,42,46
+Black Yellow Taxi,1.9,35,39,44,49
+Black Yellow Taxi,2,37,41,47,52
+Black Yellow Taxi,2.1,39,43,49,54
+Black Yellow Taxi,2.2,41,45,51,57
+Black Yellow Taxi,2.3,43,48,54,59
+Black Yellow Taxi,2.4,45,50,56,62
+Black Yellow Taxi,2.5,47,52,58,65
+Black Yellow Taxi,2.6,49,54,61,67
+Black Yellow Taxi,2.7,50,56,63,70
+Black Yellow Taxi,2.8,52,58,65,72
+Black Yellow Taxi,2.9,54,60,68,75
+Black Yellow Taxi,3,56,62,70,77
+Black Yellow Taxi,3.1,58,64,72,80
+Black Yellow Taxi,3.2,60,66,75,83
+Black Yellow Taxi,3.3,62,68,77,85
+Black Yellow Taxi,3.4,63,70,79,88
+Black Yellow Taxi,3.5,65,72,82,90
+Black Yellow Taxi,3.6,67,74,84,93
+Black Yellow Taxi,3.7,69,76,86,96
+Black Yellow Taxi,3.8,71,79,89,98
+Black Yellow Taxi,3.9,73,81,91,101
+Black Yellow Taxi,4,75,83,93,103
+Black Yellow Taxi,4.1,77,85,96,106
+Black Yellow Taxi,4.2,78,87,98,108
+Black Yellow Taxi,4.3,80,89,100,111
+Black Yellow Taxi,4.4,82,91,103,114
+Black Yellow Taxi,4.5,84,93,105,116
+Black Yellow Taxi,4.6,86,95,107,119
+Black Yellow Taxi,4.7,88,97,110,121
+Black Yellow Taxi,4.8,90,99,112,124
+Black Yellow Taxi,4.9,91,101,114,127
+Black Yellow Taxi,5,93,103,117,129
+Black Yellow Taxi,5.1,95,105,119,132
+Black Yellow Taxi,5.2,97,107,121,134
+Black Yellow Taxi,5.3,99,109,124,137
+Black Yellow Taxi,5.4,101,112,126,139
+Black Yellow Taxi,5.5,103,114,128,142
+Black Yellow Taxi,5.6,104,116,131,145
+Black Yellow Taxi,5.7,106,118,133,147
+Black Yellow Taxi,5.8,108,120,135,150
+Black Yellow Taxi,5.9,110,122,138,152
+Black Yellow Taxi,6,112,124,140,155
+Black Yellow Taxi,6.1,114,126,142,158
+Black Yellow Taxi,6.2,116,128,145,160
+Black Yellow Taxi,6.3,118,130,147,163
+Black Yellow Taxi,6.4,119,132,149,165
+Black Yellow Taxi,6.5,121,134,152,168
+Black Yellow Taxi,6.6,123,136,154,170
+Black Yellow Taxi,6.7,125,138,156,173
+Black Yellow Taxi,6.8,127,140,159,176
+Black Yellow Taxi,6.9,129,143,161,178
+Black Yellow Taxi,7,131,145,163,181
+Black Yellow Taxi,7.1,132,147,166,183
+Black Yellow Taxi,7.2,134,149,168,186
+Black Yellow Taxi,7.3,136,151,170,189
+Black Yellow Taxi,7.4,138,153,173,191
+Black Yellow Taxi,7.5,140,155,175,194
+Black Yellow Taxi,7.6,142,157,177,196
+Black Yellow Taxi,7.7,144,159,180,199
+Black Yellow Taxi,7.8,146,161,182,201
+Black Yellow Taxi,7.9,147,163,184,204
+Black Yellow Taxi,8,149,165,187,207
+Black Yellow Taxi,8.1,151,167,189,209
+Black Yellow Taxi,8.2,153,169,191,212
+Black Yellow Taxi,8.3,155,171,194,214
+Black Yellow Taxi,8.4,157,174,196,217
+Black Yellow Taxi,8.5,159,176,198,220
+Black Yellow Taxi,8.6,160,178,201,222
+Black Yellow Taxi,8.7,162,180,203,225
+Black Yellow Taxi,8.8,164,182,205,227
+Black Yellow Taxi,8.9,166,184,208,230
+Black Yellow Taxi,9,168,186,210,232
+Black Yellow Taxi,9.1,170,188,212,235
+Black Yellow Taxi,9.2,172,190,215,238
+Black Yellow Taxi,9.3,174,192,217,240
+Black Yellow Taxi,9.4,175,194,219,243
+Black Yellow Taxi,9.5,177,196,222,245
+Black Yellow Taxi,9.6,179,198,224,248
+Black Yellow Taxi,9.7,181,200,226,251
+Black Yellow Taxi,9.8,183,202,229,253
+Black Yellow Taxi,9.9,185,205,231,256
+Black Yellow Taxi,10,187,207,233,258
+Black Yellow Taxi,10.1,188,209,236,261
+Black Yellow Taxi,10.2,190,211,238,263
+Black Yellow Taxi,10.3,192,213,240,266
+Black Yellow Taxi,10.4,194,215,243,269
+Black Yellow Taxi,10.5,196,217,245,271
+Black Yellow Taxi,10.6,198,219,247,274
+Black Yellow Taxi,10.7,200,221,250,276
+Black Yellow Taxi,10.8,202,223,252,279
+Black Yellow Taxi,10.9,203,225,254,281
+Black Yellow Taxi,11,205,227,257,284
+Black Yellow Taxi,11.1,207,229,259,287
+Black Yellow Taxi,11.2,209,231,261,289
+Black Yellow Taxi,11.3,211,233,264,292
+Black Yellow Taxi,11.4,213,236,266,294
+Black Yellow Taxi,11.5,215,238,268,297
+Black Yellow Taxi,11.6,216,240,271,300
+Black Yellow Taxi,11.7,218,242,273,302
+Black Yellow Taxi,11.8,220,244,275,305
+Black Yellow Taxi,11.9,222,246,278,307
+Black Yellow Taxi,12,224,248,280,310
+Black Yellow Taxi,12.1,226,250,282,312
+Black Yellow Taxi,12.2,228,252,285,315
+Black Yellow Taxi,12.3,230,254,287,318
+Black Yellow Taxi,12.4,231,256,289,320
+Black Yellow Taxi,12.5,233,258,292,323
+Black Yellow Taxi,12.6,235,260,294,325
+Black Yellow Taxi,12.7,237,262,296,328
+Black Yellow Taxi,12.8,239,264,299,331
+Black Yellow Taxi,12.9,241,267,301,333
+Black Yellow Taxi,13,243,269,303,336
+Black Yellow Taxi,13.1,244,271,306,338
+Black Yellow Taxi,13.2,246,273,308,341
+Black Yellow Taxi,13.3,248,275,310,343
+Black Yellow Taxi,13.4,250,277,313,346
+Black Yellow Taxi,13.5,252,279,315,349
+Black Yellow Taxi,13.6,254,281,317,351
+Black Yellow Taxi,13.7,256,283,320,354
+Black Yellow Taxi,13.8,258,285,322,356
+Black Yellow Taxi,13.9,259,287,324,359
+Black Yellow Taxi,14,261,289,327,362
+Black Yellow Taxi,14.1,263,291,329,364
+Black Yellow Taxi,14.2,265,293,331,367
+Black Yellow Taxi,14.3,267,295,334,369
+Black Yellow Taxi,14.4,269,298,336,372
+Black Yellow Taxi,14.5,271,300,338,374
+Black Yellow Taxi,14.6,272,302,341,377
+Black Yellow Taxi,14.7,274,304,343,380
+Black Yellow Taxi,14.8,276,306,345,382
+Black Yellow Taxi,14.9,278,308,348,385
+Black Yellow Taxi,15,280,310,350,387
+Black Yellow Taxi,15.1,282,312,352,390
+Black Yellow Taxi,15.2,284,314,355,393
+Black Yellow Taxi,15.3,285,316,357,395
+Black Yellow Taxi,15.4,287,318,359,398
+Black Yellow Taxi,15.5,289,320,362,400
+Black Yellow Taxi,15.6,291,322,364,403
+Black Yellow Taxi,15.7,293,324,366,405
+Black Yellow Taxi,15.8,295,326,369,408
+Black Yellow Taxi,15.9,297,328,371,411
+Black Yellow Taxi,16,299,331,373,413
+Black Yellow Taxi,16.1,300,333,376,416
+Black Yellow Taxi,16.2,302,335,378,418
+Black Yellow Taxi,16.3,304,337,380,421
+Black Yellow Taxi,16.4,306,339,383,424
+Black Yellow Taxi,16.5,308,341,385,426
+Black Yellow Taxi,16.6,310,343,387,429
+Black Yellow Taxi,16.7,312,345,390,431
+Black Yellow Taxi,16.8,313,347,392,434
+Black Yellow Taxi,16.9,315,349,394,436
+Black Yellow Taxi,17,317,351,397,439
+Black Yellow Taxi,17.1,319,353,399,442
+Black Yellow Taxi,17.2,321,355,401,444
+Black Yellow Taxi,17.3,323,357,404,447
+Black Yellow Taxi,17.4,325,359,406,449
+Black Yellow Taxi,17.5,327,362,408,452
+Black Yellow Taxi,17.6,328,364,411,455
+Black Yellow Taxi,17.7,330,366,413,457
+Black Yellow Taxi,17.8,332,368,415,460
+Black Yellow Taxi,17.9,334,370,418,462
+Black Yellow Taxi,18,336,372,420,465
+Black Yellow Taxi,18.1,338,374,422,467
+Black Yellow Taxi,18.2,340,376,425,470
+Black Yellow Taxi,18.3,341,378,427,473
+Black Yellow Taxi,18.4,343,380,429,475
+Black Yellow Taxi,18.5,345,382,432,478
+Black Yellow Taxi,18.6,347,384,434,480
+Black Yellow Taxi,18.7,349,386,436,483
+Black Yellow Taxi,18.8,351,388,439,486
+Black Yellow Taxi,18.9,353,390,441,488
+Black Yellow Taxi,19,355,393,443,491
+Black Yellow Taxi,19.1,356,395,446,493
+Black Yellow Taxi,19.2,358,397,448,496
+Black Yellow Taxi,19.3,360,399,450,498
+Black Yellow Taxi,19.4,362,401,453,501
+Black Yellow Taxi,19.5,364,403,455,504
+Black Yellow Taxi,19.6,366,405,457,506
+Black Yellow Taxi,19.7,368,407,278,509
+Black Yellow Taxi,19.8,369,409,280,511
+Black Yellow Taxi,19.9,371,411,282,514
+Black Yellow Taxi,20,373,413,285,517
+Black Yellow Taxi,20.1,375,415,287,519
+Black Yellow Taxi,20.2,377,417,289,522
+Black Yellow Taxi,20.3,379,419,292,524
+Black Yellow Taxi,20.4,381,421,294,527
+Black Yellow Taxi,20.5,383,424,296,529
+Black Yellow Taxi,20.6,384,426,299,532
+Black Yellow Taxi,20.7,386,428,301,535
+Black Yellow Taxi,20.8,388,430,303,537
+Black Yellow Taxi,20.9,390,432,306,540
+Black Yellow Taxi,21,392,434,308,542
+Black Yellow Taxi,21.1,394,436,310,545
+Black Yellow Taxi,21.2,396,438,313,547
+Black Yellow Taxi,21.3,397,440,315,550
+Black Yellow Taxi,21.4,399,442,317,553
+Black Yellow Taxi,21.5,401,444,320,555
+Black Yellow Taxi,21.6,403,446,322,558
+Black Yellow Taxi,21.7,405,448,324,560
+Black Yellow Taxi,21.8,407,450,327,563
+Black Yellow Taxi,21.9,409,452,329,566
+Black Yellow Taxi,22,411,455,331,568
+Black Yellow Taxi,22.1,412,457,334,571
+Black Yellow Taxi,22.2,414,459,336,573
+Black Yellow Taxi,22.3,416,461,520,576
+Black Yellow Taxi,22.4,418,463,522,578
+Black Yellow Taxi,22.5,420,465,525,581
+Black Yellow Taxi,22.6,422,467,527,584
+Black Yellow Taxi,22.7,424,469,529,586
+Black Yellow Taxi,22.8,425,471,532,589
+Black Yellow Taxi,22.9,427,473,534,591
+Black Yellow Taxi,23,429,475,536,594
+Black Yellow Taxi,23.1,431,477,539,597
+Black Yellow Taxi,23.2,433,479,541,599
+Black Yellow Taxi,23.3,435,481,543,602
+Black Yellow Taxi,23.4,437,483,546,604
+Black Yellow Taxi,23.5,439,486,548,607
+Black Yellow Taxi,23.6,440,488,550,609
+Black Yellow Taxi,23.7,442,490,553,612
+Black Yellow Taxi,23.8,444,492,555,615
+Black Yellow Taxi,23.9,446,494,557,617
+Black Yellow Taxi,24,448,496,560,620
+Black Yellow Taxi,24.1,450,498,562,622
+Black Yellow Taxi,24.2,452,500,564,625
+Black Yellow Taxi,24.3,453,502,567,628
+Black Yellow Taxi,24.4,455,504,569,630
+Black Yellow Taxi,24.5,457,506,571,633
+Black Yellow Taxi,24.6,459,508,574,635
+Black Yellow Taxi,24.7,461,510,576,638
+Black Yellow Taxi,24.8,463,512,578,640
+Black Yellow Taxi,24.9,465,514,581,643
+Black Yellow Taxi,25,467,517,583,646
+Black Yellow Taxi,25.1,468,519,585,648
+Black Yellow Taxi,25.2,470,521,588,651
+Black Yellow Taxi,25.3,472,523,590,653
+Black Yellow Taxi,25.4,474,525,592,656
+Black Yellow Taxi,25.5,476,527,595,659
+Black Yellow Taxi,25.6,478,529,597,661
+Black Yellow Taxi,25.7,480,531,599,664
+Black Yellow Taxi,25.8,481,533,602,666
+Black Yellow Taxi,25.9,483,535,604,669
+Black Yellow Taxi,26,485,537,606,671
+Black Yellow Taxi,26.1,487,539,609,674
+Black Yellow Taxi,26.2,489,541,611,677
+Black Yellow Taxi,26.3,491,543,613,679
+Black Yellow Taxi,26.4,493,545,616,682
+Black Yellow Taxi,26.5,494,547,618,684
+Black Yellow Taxi,26.6,496,550,620,687
+Black Yellow Taxi,26.7,498,552,623,690
+Black Yellow Taxi,26.8,500,554,625,692
+Black Yellow Taxi,26.9,502,556,627,695
+Black Yellow Taxi,27,504,558,630,697
+Black Yellow Taxi,27.1,506,560,632,700
+Black Yellow Taxi,27.2,508,562,634,702
+Black Yellow Taxi,27.3,509,564,637,705
+Black Yellow Taxi,27.4,511,566,639,708
+Black Yellow Taxi,27.5,513,568,641,710
+Black Yellow Taxi,27.6,515,570,644,713
+Black Yellow Taxi,27.7,517,572,646,715
+Black Yellow Taxi,27.8,519,574,648,718
+Black Yellow Taxi,27.9,521,576,651,721
+Black Yellow Taxi,28,522,578,653,723
+Black Yellow Taxi,28.1,524,581,655,726
+Black Yellow Taxi,28.2,526,583,658,728
+Black Yellow Taxi,28.3,528,585,660,731
+Black Yellow Taxi,28.4,530,587,662,733
+Black Yellow Taxi,28.5,532,589,665,736
+Black Yellow Taxi,28.6,534,591,667,739
+Black Yellow Taxi,28.7,536,593,669,741
+Black Yellow Taxi,28.8,537,595,672,744
+Black Yellow Taxi,28.9,539,597,674,746
+Black Yellow Taxi,29,541,599,676,749
+Black Yellow Taxi,29.1,543,601,679,752
+Black Yellow Taxi,29.2,545,603,681,754
+Black Yellow Taxi,29.3,547,605,683,757
+Black Yellow Taxi,29.4,549,607,686,759
+Black Yellow Taxi,29.5,550,609,688,762
+Black Yellow Taxi,29.6,552,612,690,764
+Black Yellow Taxi,29.7,554,614,693,767
+Black Yellow Taxi,29.8,556,616,695,770
+Black Yellow Taxi,29.9,558,618,697,772
+Black Yellow Taxi,30,560,620,700,775
+Auto-Rickshaw,1.5,23,26,29,32
+Auto-Rickshaw,1.6,25,27,31,34
+Auto-Rickshaw,1.7,26,29,33,36
+Auto-Rickshaw,1.8,28,31,34,39
+Auto-Rickshaw,1.9,29,33,36,41
+Auto-Rickshaw,2,31,34,38,43
+Auto-Rickshaw,2.1,32,36,40,45
+Auto-Rickshaw,2.2,34,38,42,47
+Auto-Rickshaw,2.3,35,39,44,49
+Auto-Rickshaw,2.4,37,41,46,51
+Auto-Rickshaw,2.5,38,43,48,54
+Auto-Rickshaw,2.6,40,45,50,56
+Auto-Rickshaw,2.7,41,46,52,58
+Auto-Rickshaw,2.8,43,48,54,60
+Auto-Rickshaw,2.9,44,50,56,62
+Auto-Rickshaw,3,46,51,57,64
+Auto-Rickshaw,3.1,48,53,59,66
+Auto-Rickshaw,3.2,49,55,61,69
+Auto-Rickshaw,3.3,51,57,63,71
+Auto-Rickshaw,3.4,52,58,65,73
+Auto-Rickshaw,3.5,54,60,67,75
+Auto-Rickshaw,3.6,55,62,69,77
+Auto-Rickshaw,3.7,57,63,71,79
+Auto-Rickshaw,3.8,58,65,73,81
+Auto-Rickshaw,3.9,60,67,75,84
+Auto-Rickshaw,4,61,69,77,86
+Auto-Rickshaw,4.1,63,70,79,88
+Auto-Rickshaw,4.2,64,72,80,90
+Auto-Rickshaw,4.3,66,74,82,92
+Auto-Rickshaw,4.4,67,75,84,94
+Auto-Rickshaw,4.5,69,77,86,96
+Auto-Rickshaw,4.6,71,79,88,99
+Auto-Rickshaw,4.7,72,81,90,101
+Auto-Rickshaw,4.8,74,82,92,103
+Auto-Rickshaw,4.9,75,84,94,105
+Auto-Rickshaw,5,77,86,96,107
+Auto-Rickshaw,5.1,78,87,98,109
+Auto-Rickshaw,5.2,80,89,100,111
+Auto-Rickshaw,5.3,81,91,102,114
+Auto-Rickshaw,5.4,83,93,103,116
+Auto-Rickshaw,5.5,84,94,105,118
+Auto-Rickshaw,5.6,86,96,107,120
+Auto-Rickshaw,5.7,87,98,109,122
+Auto-Rickshaw,5.8,89,99,111,124
+Auto-Rickshaw,5.9,90,101,113,126
+Auto-Rickshaw,6,92,103,115,129
+Auto-Rickshaw,6.1,94,105,117,131
+Auto-Rickshaw,6.2,95,106,119,133
+Auto-Rickshaw,6.3,97,108,121,135
+Auto-Rickshaw,6.4,98,110,123,137
+Auto-Rickshaw,6.5,100,111,125,139
+Auto-Rickshaw,6.6,101,113,126,141
+Auto-Rickshaw,6.7,103,115,128,144
+Auto-Rickshaw,6.8,104,117,130,146
+Auto-Rickshaw,6.9,106,118,132,148
+Auto-Rickshaw,7,107,120,134,150
+Auto-Rickshaw,7.1,109,122,136,152
+Auto-Rickshaw,7.2,110,123,138,154
+Auto-Rickshaw,7.3,112,125,140,156
+Auto-Rickshaw,7.4,113,127,142,159
+Auto-Rickshaw,7.5,115,129,144,161
+Auto-Rickshaw,7.6,117,130,146,163
+Auto-Rickshaw,7.7,118,132,148,165
+Auto-Rickshaw,7.8,120,134,149,167
+Auto-Rickshaw,7.9,121,135,151,169
+Auto-Rickshaw,8,123,137,153,171
+Auto-Rickshaw,8.1,124,139,155,174
+Auto-Rickshaw,8.2,126,141,157,176
+Auto-Rickshaw,8.3,127,142,159,178
+Auto-Rickshaw,8.4,129,144,161,180
+Auto-Rickshaw,8.5,130,146,163,182
+Auto-Rickshaw,8.6,132,147,165,184
+Auto-Rickshaw,8.7,133,149,167,186
+Auto-Rickshaw,8.8,135,151,169,189
+Auto-Rickshaw,8.9,136,153,171,191
+Auto-Rickshaw,9,138,154,172,193
+Auto-Rickshaw,9.1,140,156,174,195
+Auto-Rickshaw,9.2,141,158,176,197
+Auto-Rickshaw,9.3,143,159,178,199
+Auto-Rickshaw,9.4,144,161,180,201
+Auto-Rickshaw,9.5,146,163,182,204
+Auto-Rickshaw,9.6,147,165,184,206
+Auto-Rickshaw,9.7,149,166,186,208
+Auto-Rickshaw,9.8,150,168,188,210
+Auto-Rickshaw,9.9,152,170,190,212
+Auto-Rickshaw,10,153,171,192,214
+Auto-Rickshaw,10.1,155,173,194,216
+Auto-Rickshaw,10.2,156,175,195,219
+Auto-Rickshaw,10.3,158,177,197,221
+Auto-Rickshaw,10.4,159,178,199,223
+Auto-Rickshaw,10.5,161,180,201,225
+Auto-Rickshaw,10.6,162,182,203,227
+Auto-Rickshaw,10.7,164,183,205,229
+Auto-Rickshaw,10.8,166,185,207,231
+Auto-Rickshaw,10.9,167,187,209,234
+Auto-Rickshaw,11,169,189,211,236
+Auto-Rickshaw,11.1,170,190,213,238
+Auto-Rickshaw,11.2,172,192,215,240
+Auto-Rickshaw,11.3,173,194,217,242
+Auto-Rickshaw,11.4,175,195,218,244
+Auto-Rickshaw,11.5,176,197,220,246
+Auto-Rickshaw,11.6,178,199,222,249
+Auto-Rickshaw,11.7,179,201,224,251
+Auto-Rickshaw,11.8,181,202,226,253
+Auto-Rickshaw,11.9,182,204,228,255
+Auto-Rickshaw,12,184,206,230,257
+Auto-Rickshaw,12.1,185,207,232,259
+Auto-Rickshaw,12.2,187,209,234,261
+Auto-Rickshaw,12.3,189,211,236,264
+Auto-Rickshaw,12.4,190,213,238,266
+Auto-Rickshaw,12.5,192,214,240,268
+Auto-Rickshaw,12.6,193,216,241,270
+Auto-Rickshaw,12.7,195,218,243,272
+Auto-Rickshaw,12.8,196,219,245,274
+Auto-Rickshaw,12.9,198,221,247,276
+Auto-Rickshaw,13,199,223,249,279
+Auto-Rickshaw,13.1,201,225,251,281
+Auto-Rickshaw,13.2,202,226,253,283
+Auto-Rickshaw,13.3,204,228,255,285
+Auto-Rickshaw,13.4,205,230,257,287
+Auto-Rickshaw,13.5,207,231,259,289
+Auto-Rickshaw,13.6,208,233,261,291
+Auto-Rickshaw,13.7,210,235,263,294
+Auto-Rickshaw,13.8,212,237,264,296
+Auto-Rickshaw,13.9,213,238,266,298
+Auto-Rickshaw,14,215,240,268,300
+Auto-Rickshaw,14.1,216,242,270,302
+Auto-Rickshaw,14.2,218,243,272,304
+Auto-Rickshaw,14.3,219,245,274,306
+Auto-Rickshaw,14.4,221,247,276,309
+Auto-Rickshaw,14.5,222,249,278,311
+Auto-Rickshaw,14.6,224,250,280,313
+Auto-Rickshaw,14.7,225,252,282,315
+Auto-Rickshaw,14.8,227,254,284,317
+Auto-Rickshaw,14.9,228,255,286,319
+Auto-Rickshaw,15,230,257,287,321
+Auto-Rickshaw,15.1,231,259,289,324
+Auto-Rickshaw,15.2,233,261,291,326
+Auto-Rickshaw,15.3,235,262,293,328
+Auto-Rickshaw,15.4,236,264,295,330
+Auto-Rickshaw,15.5,238,266,297,332
+Auto-Rickshaw,15.6,239,267,299,334
+Auto-Rickshaw,15.7,241,269,301,336
+Auto-Rickshaw,15.8,242,271,303,339
+Auto-Rickshaw,15.9,244,273,305,341
+Auto-Rickshaw,16,245,274,307,343
+Auto-Rickshaw,16.1,247,276,309,345
+Auto-Rickshaw,16.2,248,278,310,347
+Auto-Rickshaw,16.3,250,279,312,349
+Auto-Rickshaw,16.4,251,281,314,351
+Auto-Rickshaw,16.5,253,283,316,354
+Auto-Rickshaw,16.6,254,285,318,356
+Auto-Rickshaw,16.7,256,286,320,358
+Auto-Rickshaw,16.8,258,288,322,360
+Auto-Rickshaw,16.9,259,290,324,362
+Auto-Rickshaw,17,261,291,326,364
+Auto-Rickshaw,17.1,262,293,328,366
+Auto-Rickshaw,17.2,264,295,330,369
+Auto-Rickshaw,17.3,265,297,332,371
+Auto-Rickshaw,17.4,267,298,333,373
+Auto-Rickshaw,17.5,268,300,335,375
+Auto-Rickshaw,17.6,270,302,337,377
+Auto-Rickshaw,17.7,271,303,339,379
+Auto-Rickshaw,17.8,273,305,341,381
+Auto-Rickshaw,17.9,274,307,343,384
+Auto-Rickshaw,18,276,309,345,386
+Auto-Rickshaw,18.1,277,310,347,388
+Auto-Rickshaw,18.2,279,312,349,390
+Auto-Rickshaw,18.3,281,314,351,392
+Auto-Rickshaw,18.4,282,315,353,394
+Auto-Rickshaw,18.5,284,317,355,396
+Auto-Rickshaw,18.6,285,319,356,399
+Auto-Rickshaw,18.7,287,321,358,401
+Auto-Rickshaw,18.8,288,322,360,403
+Auto-Rickshaw,18.9,290,324,362,405
+Auto-Rickshaw,19,291,326,364,407
+Auto-Rickshaw,19.1,293,327,366,409
+Auto-Rickshaw,19.2,294,329,368,411
+Auto-Rickshaw,19.3,296,331,370,414
+Auto-Rickshaw,19.4,297,333,372,416
+Auto-Rickshaw,19.5,299,334,374,418
+Auto-Rickshaw,19.6,300,336,376,420
+Auto-Rickshaw,19.7,302,338,378,422
+Auto-Rickshaw,19.8,304,339,379,424
+Auto-Rickshaw,19.9,305,341,381,426
+Auto-Rickshaw,20,307,343,383,429
+Auto-Rickshaw,20.1,308,345,385,431
+Auto-Rickshaw,20.2,310,346,387,433
+Auto-Rickshaw,20.3,311,348,389,435
+Auto-Rickshaw,20.4,313,350,391,437
+Auto-Rickshaw,20.5,314,351,393,439
+Auto-Rickshaw,20.6,316,353,395,441
+Auto-Rickshaw,20.7,317,355,397,443
+Auto-Rickshaw,20.8,319,357,399,446
+Auto-Rickshaw,20.9,320,358,400,448
+Auto-Rickshaw,21,322,360,402,450
+Auto-Rickshaw,21.1,323,362,404,452
+Auto-Rickshaw,21.2,325,363,406,454
+Auto-Rickshaw,21.3,327,365,408,456
+Auto-Rickshaw,21.4,328,367,410,458
+Auto-Rickshaw,21.5,330,369,412,461
+Auto-Rickshaw,21.6,331,370,414,463
+Auto-Rickshaw,21.7,333,372,416,465
+Auto-Rickshaw,21.8,334,374,418,467
+Auto-Rickshaw,21.9,336,375,420,469
+Auto-Rickshaw,22,337,377,422,471
+Auto-Rickshaw,22.1,339,379,423,473
+Auto-Rickshaw,22.2,340,381,425,476
+Auto-Rickshaw,22.3,342,382,427,478
+Auto-Rickshaw,22.4,343,384,429,480
+Auto-Rickshaw,22.5,345,386,431,482
+Auto-Rickshaw,22.6,346,387,433,484
+Auto-Rickshaw,22.7,348,389,435,486
+Auto-Rickshaw,22.8,350,391,437,488
+Auto-Rickshaw,22.9,351,393,439,491
+Auto-Rickshaw,23,353,394,441,493
+Auto-Rickshaw,23.1,354,396,443,495
+Auto-Rickshaw,23.2,356,398,445,497
+Auto-Rickshaw,23.3,357,399,446,499
+Auto-Rickshaw,23.4,359,401,448,501
+Auto-Rickshaw,23.5,360,403,450,503
+Auto-Rickshaw,23.6,362,405,452,506
+Auto-Rickshaw,23.7,363,406,454,508
+Auto-Rickshaw,23.8,365,408,456,510
+Auto-Rickshaw,23.9,366,410,458,512
+Auto-Rickshaw,24,368,411,460,514
+Auto-Rickshaw,24.1,369,413,462,516
+Auto-Rickshaw,24.2,371,415,464,518
+Auto-Rickshaw,24.3,373,417,466,521
+Auto-Rickshaw,24.4,374,418,468,523
+Auto-Rickshaw,24.5,376,420,469,525
+Auto-Rickshaw,24.6,377,422,471,527
+Auto-Rickshaw,24.7,379,423,473,529
+Auto-Rickshaw,24.8,380,425,475,531
+Auto-Rickshaw,24.9,382,427,477,533
+Auto-Rickshaw,25,383,429,479,536
+Auto-Rickshaw,25.1,385,430,481,538
+Auto-Rickshaw,25.2,386,432,483,540
+Auto-Rickshaw,25.3,388,434,485,542
+Auto-Rickshaw,25.4,389,435,487,544
+Auto-Rickshaw,25.5,391,437,489,546
+Auto-Rickshaw,25.6,392,439,491,548
+Auto-Rickshaw,25.7,394,440,492,551
+Auto-Rickshaw,25.8,396,442,494,553
+Auto-Rickshaw,25.9,397,444,496,555
+Auto-Rickshaw,26,399,446,498,557
+Auto-Rickshaw,26.1,400,447,500,559
+Auto-Rickshaw,26.2,402,449,502,561
+Auto-Rickshaw,26.3,403,451,504,563
+Auto-Rickshaw,26.4,405,452,506,566
+Auto-Rickshaw,26.5,406,454,508,568
+Auto-Rickshaw,26.6,408,456,510,570
+Auto-Rickshaw,26.7,409,458,512,572
+Auto-Rickshaw,26.8,411,459,514,574
+Auto-Rickshaw,26.9,412,461,515,576
+Auto-Rickshaw,27,414,463,517,578
+Auto-Rickshaw,27.1,415,464,519,581
+Auto-Rickshaw,27.2,417,466,521,583
+Auto-Rickshaw,27.3,419,468,523,585
+Auto-Rickshaw,27.4,420,470,525,587
+Auto-Rickshaw,27.5,422,471,527,589
+Auto-Rickshaw,27.6,423,473,529,591
+Auto-Rickshaw,27.7,425,475,531,593
+Auto-Rickshaw,27.8,426,476,533,596
+Auto-Rickshaw,27.9,428,478,535,598
+Auto-Rickshaw,28,429,480,537,600
+Auto-Rickshaw,28.1,431,482,538,602
+Auto-Rickshaw,28.2,432,483,540,604
+Auto-Rickshaw,28.3,434,485,542,606
+Auto-Rickshaw,28.4,435,487,544,608
+Auto-Rickshaw,28.5,437,488,546,611
+Auto-Rickshaw,28.6,438,490,548,613
+Auto-Rickshaw,28.7,440,492,550,615
+Auto-Rickshaw,28.8,442,494,552,617
+Auto-Rickshaw,28.9,443,495,554,619
+Auto-Rickshaw,29,445,497,556,621
+Auto-Rickshaw,29.1,446,499,558,623
+Auto-Rickshaw,29.2,448,500,560,626
+Auto-Rickshaw,29.3,449,502,561,628
+Auto-Rickshaw,29.4,451,504,563,630
+Auto-Rickshaw,29.5,452,506,565,632
+Auto-Rickshaw,29.6,454,507,567,634
+Auto-Rickshaw,29.7,455,509,569,636
+Auto-Rickshaw,29.8,457,511,571,638
+Auto-Rickshaw,29.9,458,512,573,641
+Auto-Rickshaw,30,460,514,575,643

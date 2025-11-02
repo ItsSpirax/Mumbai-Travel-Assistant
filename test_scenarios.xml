@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test_scenarios>
+    <metadata>
+        <title>Mumbai Travel Assistant - Test Questions and Answers</title>
+        <version>1.0</version>
+        <description>Comprehensive test scenarios covering simple to complex multi-tool queries</description>
+        <created>2025-01-15</created>
+    </metadata>
+
+    <!-- SIMPLE QUERIES - Single Tool Usage -->
+    <category name="simple_queries" difficulty="easy">
+        
+        <scenario id="S001">
+            <question>What is the metro fare from Versova to Ghatkopar?</question>
+            <tools_used>
+                <tool>fare_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>Versova</from_station>
+                        <to_station>Ghatkopar</to_station>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>The metro fare from Versova to Ghatkopar on Line 1 (Blue Line) is ₹110.</summary>
+                <details>
+                    <mode>metro</mode>
+                    <total_fare>110</total_fare>
+                    <route>Same line journey on Line 1 (Blue Line)</route>
+                    <segments>1</segments>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S002">
+            <question>How much does an auto-rickshaw cost for 8 kilometers at normal time?</question>
+            <tools_used>
+                <tool>fare_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>road</mode>
+                        <vehicle_type>auto-rickshaw</vehicle_type>
+                        <distance_km>8.0</distance_km>
+                        <fare_variant>revised</fare_variant>
+                        <time_period>normal</time_period>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>An auto-rickshaw fare for 8 km during normal hours is approximately ₹60-65 (revised tariff).</summary>
+                <details>
+                    <mode>road</mode>
+                    <vehicle_type>auto-rickshaw</vehicle_type>
+                    <fare_variant>revised</fare_variant>
+                    <time_period>normal</time_period>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S003">
+            <question>Show me ferries from Gateway to Elephanta</question>
+            <tools_used>
+                <tool>ferry_schedule_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <from_location>Gateway</from_location>
+                        <to_location>Elephanta</to_location>
+                        <limit>10</limit>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Gateway to Elephanta ferries run from 09:00 AM to 03:20 PM, with return trips until 06:30 PM. Journey time is 1 hour, frequency is 15/30 minutes, and return fare is ₹200. Available 365 days.</summary>
+                <details>
+                    <first_departure>09:00 AM</first_departure>
+                    <last_departure>03:20 PM</last_departure>
+                    <frequency>15/30 Mins</frequency>
+                    <journey_time>1 Hour</journey_time>
+                    <fare>Return 200/-</fare>
+                    <bikes_allowed>false</bikes_allowed>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S004">
+            <question>What are the current arrivals at Mumbai airport?</question>
+            <tools_used>
+                <tool>airport_schedule_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>airport_schedule_lookup</tool>
+                    <parameters>
+                        <icao>VABB</icao>
+                        <direction>arrivals</direction>
+                        <arrivals_limit>15</arrivals_limit>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Current arrivals at Mumbai (VABB) include flights from various domestic and international destinations. The response includes flight numbers, airlines, origin airports, scheduled/estimated times, delays, terminal/gate information, and aircraft details.</summary>
+                <details>
+                    <airport>VABB - Chhatrapati Shivaji Maharaj International Airport</airport>
+                    <data_includes>airline, flight_number, origin, status, scheduled_time, estimated_time, delay_minutes, terminal, gate, aircraft</data_includes>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S005">
+            <question>What's the live train board at Dadar station?</question>
+            <tools_used>
+                <tool>station_board_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>station_board_lookup</tool>
+                    <parameters>
+                        <station>DR</station>
+                        <next_minutes>120</next_minutes>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Live train board at Dadar (DR) shows trains for the next 2 hours with details including train names, expected times, current status (on time/delayed/arrived/departed), and platform numbers. Summary includes status breakdown and active platforms.</summary>
+                <details>
+                    <station_code>DR</station_code>
+                    <station_name>Dadar</station_name>
+                    <window>120 minutes</window>
+                    <includes>train_name, expected_time, status, platform, status_bucket</includes>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S006">
+            <question>What's the penalty for riding without a helmet?</question>
+            <tools_used>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>riding without helmet</query>
+                        <category>traffic</category>
+                        <top_k>3</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Riding a motorcycle without a helmet is a traffic violation. The penalty typically includes fines and potential license points. Exact amount depends on jurisdiction and repeat offenses.</summary>
+                <details>
+                    <category>traffic</category>
+                    <search_type>semantic</search_type>
+                    <includes>code, description, penalty, similarity_score</includes>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S007">
+            <question>Are there any recent traffic issues on Western Express Highway?</question>
+            <tools_used>
+                <tool>traffic_sentiment_search</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>traffic_sentiment_search</tool>
+                    <parameters>
+                        <query>subreddit:Mumbai Western Express Highway traffic</query>
+                        <limit>10</limit>
+                        <sort>new</sort>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Recent Reddit posts from the last 24 hours about Western Express Highway traffic, with sentiment analysis (positive/negative/mixed) based on keywords. Includes post titles, timestamps, scores, and sentiment confidence.</summary>
+                <details>
+                    <source>Reddit r/Mumbai</source>
+                    <time_range>24 hours</time_range>
+                    <sentiment_analysis>keyword-based (positive/negative/neutral)</sentiment_analysis>
+                    <includes>title, created_at, age_hours, score, sentiment_label, sentiment_score</includes>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="S008">
+            <question>Track Emirates flight EK508</question>
+            <tools_used>
+                <tool>flight_tracker_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>flight_tracker_lookup</tool>
+                    <parameters>
+                        <airline>UAE</airline>
+                        <flight_number>EK508</flight_number>
+                        <include_details>true</include_details>
+                        <limit>1</limit>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Live tracking data for Emirates EK508 including current position, altitude, speed, origin/destination airports, scheduled/estimated times, and flight status.</summary>
+                <details>
+                    <airline>Emirates (UAE)</airline>
+                    <includes>position, altitude, speed, origin, destination, aircraft_type, status</includes>
+                </details>
+            </expected_answer>
+        </scenario>
+
+    </category>
+
+    <!-- MODERATE QUERIES - 2-3 Tools -->
+    <category name="moderate_queries" difficulty="medium">
+
+        <scenario id="M001">
+            <question>I need to get from Andheri to the airport. Compare metro and taxi costs.</question>
+            <tools_used>
+                <tool>fare_lookup</tool>
+                <tool>fare_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>Andheri</from_station>
+                        <to_station>CSMIA T2</to_station>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>road</mode>
+                        <vehicle_type>black-yellow taxi</vehicle_type>
+                        <distance_km>7.0</distance_km>
+                        <fare_variant>revised</fare_variant>
+                        <time_period>normal</time_period>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>From Andheri to CSMIA T2:
+- Metro: ₹50 (Line 1 to Western Express Highway, then Line 2A/7 to Airport Road, then Line 3 to CSMIA T2 - requires interchanges)
+- Taxi: ~₹180-200 for 7km (revised normal tariff)
+
+Metro is cheaper but involves interchanges. Taxi is direct but costs 3-4x more.</summary>
+                <comparison>
+                    <metro_fare>~50</metro_fare>
+                    <taxi_fare>~180-200</taxi_fare>
+                    <savings>~130-150</savings>
+                    <metro_notes>Requires interchange(s)</metro_notes>
+                    <taxi_notes>Direct, door-to-door</taxi_notes>
+                </comparison>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="M002">
+            <question>Show me bike-friendly ferries and what happens if I travel without a ticket</question>
+            <tools_used>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <allows_bikes>true</allows_bikes>
+                        <limit>15</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>travelling without ticket ferry boat</query>
+                        <category>railway</category>
+                        <top_k>3</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Bike-friendly ferries include:
+- Gorai ↔ Borivali (₹10, 5 mins)
+- Manori ↔ Marve (₹10, 5 mins)
+- Versova ↔ Madh (₹3, 5 mins)
+- Karanja ↔ Rewas (₹30, 15 mins)
+- Several others
+
+Travelling without a valid ticket on water transport can result in penalties similar to railway violations, including fines and potential legal action.</summary>
+                <details>
+                    <bike_friendly_routes>Multiple routes available</bike_friendly_routes>
+                    <bike_charges>Some routes charge extra (₹40-50)</bike_charges>
+                    <ticketless_penalty>Fine plus possible legal action</ticketless_penalty>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="M003">
+            <question>Check CSMT station board and tell me about penalties for smoking on trains</question>
+            <tools_used>
+                <tool>station_board_lookup</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>station_board_lookup</tool>
+                    <parameters>
+                        <station>CSMT</station>
+                        <next_minutes>120</next_minutes>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>smoking in train railway station</query>
+                        <category>railway</category>
+                        <top_k>3</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>CSMT live board shows trains for the next 2 hours with platform assignments and delay status.
+
+Smoking on trains or railway stations is strictly prohibited with penalties including fines (typically ₹200-500) and possible arrest for repeat offenders. It's a public health violation under railway rules.</summary>
+                <details>
+                    <station>Chhatrapati Shivaji Maharaj Terminus</station>
+                    <smoking_penalty>Fine ₹200-500, possible arrest</smoking_penalty>
+                    <law_reference>Railway Act provisions</law_reference>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="M004">
+            <question>What's the traffic situation and are there any flights around Mumbai airport right now?</question>
+            <tools_used>
+                <tool>traffic_sentiment_search</tool>
+                <tool>flight_tracker_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>traffic_sentiment_search</tool>
+                    <parameters>
+                        <query>subreddit:Mumbai airport traffic</query>
+                        <limit>10</limit>
+                        <sort>new</sort>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>flight_tracker_lookup</tool>
+                    <parameters>
+                        <center_lat>19.0896</center_lat>
+                        <center_lon>72.8656</center_lon>
+                        <radius_m>50000</radius_m>
+                        <limit>20</limit>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Traffic sentiment around airport area based on recent Reddit posts (positive/negative/mixed based on congestion reports).
+
+Live flights within 50km of Mumbai airport include arrivals, departures, and overflights with details on airlines, aircraft types, altitudes, and destinations.</summary>
+                <details>
+                    <traffic_source>Reddit last 24h</traffic_source>
+                    <flight_tracking>FlightRadar24 live data</flight_tracking>
+                    <radius>50km from VABB</radius>
+                </details>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="M005">
+            <question>Show me Mumbai airport departures and which ferries close during monsoon</question>
+            <tools_used>
+                <tool>airport_schedule_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>airport_schedule_lookup</tool>
+                    <parameters>
+                        <icao>VABB</icao>
+                        <direction>departures</direction>
+                        <departures_limit>20</departures_limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <availability>Monsoon</availability>
+                        <limit>20</limit>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Current departures from Mumbai (VABB) include domestic and international flights with gate assignments, delays, and destinations.
+
+Monsoon-affected ferries include:
+- Gateway ↔ Mandwa (Closed in Monsoon)
+- Bhauch Dhakka ↔ Rewas (Closed in Monsoon)
+- Rajpuri ↔ Dighi (Closed in Monsoon)
+- Several others that suspend operations during heavy rains</summary>
+                <details>
+                    <departures>Live data from VABB</departures>
+                    <monsoon_closures>Multiple ferry routes affected</monsoon_closures>
+                </details>
+            </expected_answer>
+        </scenario>
+
+    </category>
+
+    <!-- COMPLEX QUERIES - 3+ Tools with Integration -->
+    <category name="complex_queries" difficulty="hard">
+
+        <scenario id="C001">
+            <question>I'm landing at Mumbai airport tomorrow afternoon. Check the arrivals, tell me metro options to Dadar, current traffic conditions, and what trains are available from Dadar.</question>
+            <tools_used>
+                <tool>airport_schedule_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>traffic_sentiment_search</tool>
+                <tool>station_board_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>airport_schedule_lookup</tool>
+                    <parameters>
+                        <icao>VABB</icao>
+                        <direction>arrivals</direction>
+                        <arrivals_limit>15</arrivals_limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>CSMIA T2</from_station>
+                        <to_station>Dadar</to_station>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>traffic_sentiment_search</tool>
+                    <parameters>
+                        <query>subreddit:Mumbai airport Dadar traffic</query>
+                        <limit>10</limit>
+                        <sort>new</sort>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>station_board_lookup</tool>
+                    <parameters>
+                        <station>DR</station>
+                        <next_minutes>180</next_minutes>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>Complete journey plan:
+
+1. **Arrivals**: Current afternoon arrivals at VABB show [flight details with delays/on-time status]
+
+2. **Metro to Dadar**: 
+   - Route: CSMIA T2 → Dadar (Line 3 Aqualine)
+   - Fare: ₹40-50
+   - Journey time: ~30 minutes
+
+3. **Traffic**: Recent posts indicate [positive/negative/mixed] traffic conditions between airport and Dadar
+
+4. **Dadar Trains**: Live board shows [X] trains in next 3 hours with platforms and delay status for onward connections
+
+**Recommendation**: Metro is fastest and most reliable. Budget ₹50 + 3 hours buffer for arrival/customs/metro/connections.</summary>
+                <integrated_plan>
+                    <total_cost>~50</total_cost>
+                    <total_time>~30-40 mins metro + connections</total_time>
+                    <reliability>High (metro unaffected by traffic)</reliability>
+                    <alternatives>Taxi available but traffic-dependent</alternatives>
+                </integrated_plan>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="C002">
+            <question>I want a weekend trip to Elephanta Island with my bike. Find ferry routes, check if bikes are allowed, what are the monsoon restrictions, and what are the penalties if I'm caught without proper tickets?</question>
+            <tools_used>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <to_location>Elephanta</to_location>
+                        <limit>10</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <allows_bikes>true</allows_bikes>
+                        <limit>15</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <availability>Monsoon</availability>
+                        <limit>10</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>travelling without valid ticket ferry boat</query>
+                        <top_k>5</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>**Elephanta Trip Planning:**
+
+1. **Ferry Routes to Elephanta**:
+   - Gateway → Elephanta: 09:00-15:20, ₹200 return, 1 hour, NO BIKES
+   - Belapur → Elephanta: 09:30 only, ₹400-825, NO BIKES
+   - Mora → Elephanta: 06:30-16:30, ₹45 return, 45 mins, NO BIKES
+   - Bhauch Dhakka → Elephanta: On demand, ₹160 return, NO BIKES
+
+2. **Bike Problem**: None of the Elephanta ferries allow bikes. However, bike-friendly alternatives:
+   - Gorai ↔ Borivali (bikes ₹10)
+   - Versova ↔ Madh (bikes allowed)
+   - Bhayandar ↔ Vasai (bikes ₹50)
+
+3. **Monsoon**: Gateway-Elephanta runs 365 days (no monsoon closure), but other routes may be affected.
+
+4. **Ticketless Penalties**: Fine of ₹200-500 plus possible legal action under transport regulations.
+
+**Recommendation**: Leave bike at home for Elephanta trip, or choose alternative destinations that allow bikes.</summary>
+                <critical_finding>
+                    <bikes_on_elephanta_ferries>NOT ALLOWED</bikes_on_elephanta_ferries>
+                    <suggestion>Use alternative island destinations or leave bike behind</suggestion>
+                </critical_finding>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="C003">
+            <question>Track Emirates EK508 from Dubai, check Mumbai airport arrivals, calculate taxi vs metro cost from airport to Bandra, and tell me about current traffic conditions.</question>
+            <tools_used>
+                <tool>flight_tracker_lookup</tool>
+                <tool>airport_schedule_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>traffic_sentiment_search</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>flight_tracker_lookup</tool>
+                    <parameters>
+                        <airline>UAE</airline>
+                        <flight_number>EK508</flight_number>
+                        <include_details>true</include_details>
+                        <include_trail>true</include_trail>
+                        <limit>1</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>airport_schedule_lookup</tool>
+                    <parameters>
+                        <icao>VABB</icao>
+                        <direction>arrivals</direction>
+                        <arrivals_limit>20</arrivals_limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>CSMIA T2</from_station>
+                        <to_station>Bandra Colony</to_station>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>road</mode>
+                        <vehicle_type>black-yellow taxi</vehicle_type>
+                        <distance_km>10.0</distance_km>
+                        <fare_variant>revised</fare_variant>
+                        <time_period>normal</time_period>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>traffic_sentiment_search</tool>
+                    <parameters>
+                        <query>subreddit:Mumbai airport Bandra traffic</query>
+                        <limit>15</limit>
+                        <sort>new</sort>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>**Complete Arrival Plan for EK508 Passenger:**
+
+1. **Flight Status**: EK508 currently [live position, altitude, speed, ETA]. On track to arrive at VABB Terminal 2 at [time] with [delay status].
+
+2. **Airport Arrivals**: VABB showing [X] arrivals around same time, including other Emirates flights. Terminal 2 [congestion status].
+
+3. **Transport Costs to Bandra**:
+   - **Metro**: ₹30-40 (Line 3: CSMIA T2 → Bandra Colony, ~20 mins)
+   - **Taxi**: ₹250-280 for 10km (revised normal tariff)
+   - **Savings**: ₹210-250 with metro
+
+4. **Traffic**: Recent reports indicate [positive/negative/mixed] conditions on airport-Bandra route.
+
+**Recommendation**: 
+- If traveling light: Take metro (cheaper, faster, no traffic)
+- If heavy luggage/group: Taxi worth the extra cost
+- Budget 30-45 mins for immigration/baggage
+- Current traffic [good/moderate/heavy] based on Reddit sentiment</summary>
+                <detailed_comparison>
+                    <metro>
+                        <cost>30-40</cost>
+                        <time>~20 mins</time>
+                        <pros>Cheap, fast, no traffic delays</pros>
+                        <cons>Luggage handling, station access</cons>
+                    </metro>
+                    <taxi>
+                        <cost>250-280</cost>
+                        <time>25-45 mins (traffic dependent)</time>
+                        <pros>Door-to-door, luggage easy</pros>
+                        <cons>Expensive, traffic delays possible</cons>
+                    </taxi>
+                </detailed_comparison>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="C004">
+            <question>Emergency: There's an accident on Western Express Highway. I need to get from Borivali to Bandra urgently. Check traffic, show ferry options, calculate metro fare, tell me about Bandra trains, and what are speeding penalties if I drive fast?</question>
+            <tools_used>
+                <tool>traffic_sentiment_search</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>station_board_lookup</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>traffic_sentiment_search</tool>
+                    <parameters>
+                        <query>subreddit:Mumbai Western Express Highway accident Borivali</query>
+                        <limit>20</limit>
+                        <sort>new</sort>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <from_location>Borivali</from_location>
+                        <limit>10</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>Borivali West</from_station>
+                        <to_station>Bandra Colony</to_station>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>station_board_lookup</tool>
+                    <parameters>
+                        <station>BDTS</station>
+                        <next_minutes>60</next_minutes>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>overspeeding exceeding speed limit rash driving</query>
+                        <category>traffic</category>
+                        <top_k>5</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>**EMERGENCY ROUTE PLANNING (Borivali → Bandra):**
+
+**SITUATION**: Western Express Highway accident reported [X hours ago] with [negative sentiment score]. Heavy congestion likely.
+
+**ALTERNATIVE OPTIONS**:
+
+1. **Metro (RECOMMENDED - FASTEST)**:
+   - Route: Borivali West → Bandra Colony (Line 2A/7)
+   - Fare: ₹40-50
+   - Time: ~30-35 minutes
+   - Status: Unaffected by road accident
+   - **BEST CHOICE FOR EMERGENCY**
+
+2. **Ferry**:
+   - Borivali Jetty → Essel World (₹50 return, but doesn't go to Bandra)
+   - Gorai connections available but indirect
+   - **NOT RECOMMENDED**: No direct route
+
+3. **Train**:
+   - Bandra Terminus shows [X] trains in next hour
+   - Western line trains available from Borivali
+   - **MODERATE OPTION**: Check for delays due to accident spillover
+
+4. **Driving/Taxi**:
+   - **NOT RECOMMENDED**: Accident on main route
+   - If unavoidable: Take SV Road or local roads
+   - **Speeding Penalties**: ₹500-2000 fine, potential license suspension
+   - **DON'T SPEED**: Accident zone, police active, not worth risk
+
+**FINAL RECOMMENDATION**: 
+Take Metro Line 2A/7 immediately. It's fastest, cheapest, and completely bypasses the accident zone. ETA: 30-35 minutes.</summary>
+                <emergency_priority>
+                    <option1>Metro (30-35 mins, ₹40-50) - RECOMMENDED</option1>
+                    <option2>Train (variable, check delays)</option2>
+                    <option3>Road (NOT recommended due to accident)</option3>
+                    <speeding_warning>DON'T speed - heavy fines and dangerous</speeding_warning>
+                </emergency_priority>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="C005">
+            <question>Plan complete journey from Versova to Worli during monsoon. Check metro route with interchanges, compare auto cost, look for ferry alternatives considering monsoon closures, check current traffic and flooding reports, and tell me about penalties for reckless driving in rain.</question>
+            <tools_used>
+                <tool>fare_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>traffic_sentiment_search</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>Versova</from_station>
+                        <to_station>Worli</to_station>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>road</mode>
+                        <vehicle_type>auto-rickshaw</vehicle_type>
+                        <distance_km>18.0</distance_km>
+                        <fare_variant>revised</fare_variant>
+                        <time_period>normal</time_period>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <from_location>Versova</from_location>
+                        <limit>10</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <availability>Monsoon</availability>
+                        <limit>20</limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>traffic_sentiment_search</tool>
+                    <parameters>
+                        <query>subreddit:Mumbai rain flooding waterlogging Versova Worli</query>
+                        <limit>20</limit>
+                        <sort>top</sort>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>reckless dangerous driving in rain heavy rainfall</query>
+                        <category>traffic</category>
+                        <top_k>5</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>**MONSOON JOURNEY PLAN: Versova → Worli**
+
+**PRIMARY OPTION - METRO (BEST FOR MONSOON):**
+- Route: Versova → Marol Naka (Line 1) → interchange → CSMIA T2 (Line 3) → Worli (Line 3)
+- Fare: ₹70-80 with interchange
+- Time: ~45-50 minutes
+- **MONSOON ADVANTAGE**: Completely weather-proof, no flooding impact
+- **CONS**: Requires interchange at Marol Naka
+
+**ALTERNATIVE - AUTO-RICKSHAW:**
+- Distance: 18 km
+- Fare: ₹130-150 (revised normal)
+- Time: 45-90 minutes (highly variable in rain)
+- **MONSOON RISKS**: 
+  * Waterlogging likely on route
+  * Major delays possible
+  * Driver may refuse or charge extra
+  * Getting wet is certain
+
+**FERRY OPTIONS:**
+- Versova → Madh ferry available (₹3, 5 mins, 365 days)
+- **NO direct ferry to Worli**
+- Most monsoon-affected ferries: Gateway-Mandwa, Rewas routes CLOSED
+- **NOT VIABLE** for this journey
+
+**TRAFFIC & FLOODING:**
+- Recent posts show [sentiment] about waterlogging
+- Common problem areas: [locations mentioned in Reddit posts]
+- Rain expected: [based on post timing]
+
+**SAFETY - RECKLESS DRIVING PENALTIES:**
+- Dangerous/reckless driving: ₹1000-5000 fine
+- Enhanced in monsoon due to poor visibility
+- Potential license suspension
+- **ADVICE**: Don't risk it - take metro
+
+**FINAL RECOMMENDATION:**
+**TAKE METRO** - It's the only reliable option during monsoon. Yes, there's an interchange, but it's worth it to stay dry and arrive on time. Auto-rickshaws are risky due to waterlogging and traffic chaos.
+
+Budget: ₹80 + 50 mins travel time</summary>
+                <monsoon_critical_analysis>
+                    <metro>
+                        <rating>EXCELLENT</rating>
+                        <reason>Weather-proof, reliable, predictable time</reason>
+                        <cost>70-80</cost>
+                        <time>45-50 mins</time>
+                    </metro>
+                    <auto>
+                        <rating>POOR</rating>
+                        <reason>Waterlogging, delays, refusals, getting wet</reason>
+                        <cost>130-150</cost>
+                        <time>45-90 mins (unpredictable)</time>
+                    </auto>
+                    <ferry>
+                        <rating>NOT APPLICABLE</rating>
+                        <reason>No direct route to destination</reason>
+                    </ferry>
+                    <driving>
+                        <rating>DANGEROUS</rating>
+                        <reason>Reckless driving penalties high, poor visibility, flooding</reason>
+                    </driving>
+                </monsoon_critical_analysis>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="C006">
+            <question>I'm coordinating an airport transfer at 11 PM. Show departures from VABB, track all Air India flights in Mumbai airspace, calculate both taxi and metro midnight fares from Andheri to airport, check if ferries run that late, review train options from Thane, and advise on late-night travel penalties including helmet violations.</question>
+            <tools_used>
+                <tool>airport_schedule_lookup</tool>
+                <tool>flight_tracker_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>station_board_lookup</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_calls>
+                <call>
+                    <tool>airport_schedule_lookup</tool>
+                    <parameters>
+                        <icao>VABB</icao>
+                        <direction>departures</direction>
+                        <departures_limit>30</departures_limit>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>flight_tracker_lookup</tool>
+                    <parameters>
+                        <airline>AIC</airline>
+                        <center_lat>19.0896</center_lat>
+                        <center_lon>72.8656</center_lon>
+                        <radius_m>100000</radius_m>
+                        <limit>25</limit>
+                        <include_details>true</include_details>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>road</mode>
+                        <vehicle_type>black-yellow taxi</vehicle_type>
+                        <distance_km>8.0</distance_km>
+                        <fare_variant>revised</fare_variant>
+                        <time_period>midnight</time_period>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>fare_lookup</tool>
+                    <parameters>
+                        <mode>metro</mode>
+                        <from_station>Andheri</from_station>
+                        <to_station>CSMIA T2</to_station>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>ferry_schedule_lookup</tool>
+                    <parameters>
+                        <limit>50</limit>
+                        <sort_by>journey_time</sort_by>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>station_board_lookup</tool>
+                    <parameters>
+                        <station>TNA</station>
+                        <next_minutes>180</next_minutes>
+                    </parameters>
+                </call>
+                <call>
+                    <tool>penalty_semantic_lookup</tool>
+                    <parameters>
+                        <query>riding motorcycle without helmet late night</query>
+                        <category>traffic</category>
+                        <top_k>5</top_k>
+                    </parameters>
+                </call>
+            </expected_calls>
+            <expected_answer>
+                <summary>**COMPREHENSIVE LATE NIGHT (11 PM) AIRPORT TRANSFER COORDINATION:**
+
+**1. VABB DEPARTURES (11 PM Window):**
+- [List of departures between 22:00-00:00]
+- Peak international departure time
+- Terminal 2 gates [X, Y, Z] active
+- Average delays: [status]
+
+**2. AIR INDIA FLIGHTS IN MUMBAI AIRSPACE:**
+- [X] Air India flights currently tracked within 100km
+- Mix of arrivals, departures, and overflights
+- Common routes: Mumbai-Delhi, Mumbai-Bangalore, etc.
+
+**3. TRANSPORT COSTS (Andheri → Airport at 11 PM):**
+
+**TAXI (AVAILABLE):**
+- Midnight fare: ₹200-220 for 8km (revised midnight = 1.5x normal)
+- Time: 20-25 minutes (lighter traffic)
+- **PROS**: Door-to-door, 24/7 available
+- **CONS**: Expensive midnight surcharge
+
+**METRO (CHECK HOURS):**
+- Normal fare: ₹40-50
+- **CRITICAL**: Verify if Line 1/3 running at 11 PM
+- Last metro typically ~23:30-00:00
+- **RISK**: May miss last train
+
+**4. FERRY OPTIONS (11 PM):**
+- **Versova ↔ Madh**: RUNS until 01:15 AM! (last departure 01:15 AM)
+- **Manori ↔ Marve**: RUNS until 12:00 AM
+- Most other ferries closed by 10-11 PM
+- **NOT HELPFUL** for airport transfer but available for some routes
+
+**5. THANE TRAINS (Late Night):**
+- Live board shows [X] trains in next 3 hours
+- Limited late-night service
+- Last trains typically 00:30-01:00
+- Connects to Mumbai Central/Dadar for airport links
+
+**6. LATE NIGHT PENALTIES:**
+- Helmet violation: ₹500-1000 (same day/night)
+- **ENHANCED ENFORCEMENT** at night near airport
+- Police checkpoints common on airport road
+- Additional risks: DUI checks, document verification
+
+**RECOMMENDATIONS:**
+
+**FOR ANDHERI → AIRPORT AT 11 PM:**
+1. **BEST**: Pre-book taxi (₹220, guaranteed)
+2. **RISKY**: Metro if before 23:00 (₹50, may close)
+3. **NO**: Ferries don't serve this route
+
+**FOR THANE → AIRPORT AT 11 PM:**
+1. Train to Andheri/Bandra → taxi/metro
+2. Direct taxi (₹600-800 for ~30km)
+3. Allow 90-120 minutes total
+
+**SAFETY NOTES:**
+- Helmet mandatory even at night
+- Keep documents ready for checkpoints
+- Pre-book transport to avoid last-minute rush
+- Airport road well-lit and patrolled</summary>
+                <late_night_specifics>
+                    <metro_last_train>Verify timings - typically closes 23:30-00:00</metro_last_train>
+                    <taxi_midnight_surcharge>1.5x normal fare</taxi_midnight_surcharge>
+                    <ferry_options_limited>Most closed, Versova-Madh runs latest</ferry_options_limited>
+                    <police_checkpoints>Common near airport - keep documents</police_checkpoints>
+                    <recommendation>Pre-book taxi for reliability</recommendation>
+                </late_night_specifics>
+            </expected_answer>
+        </scenario>
+
+    </category>
+
+    <!-- EDGE CASE QUERIES -->
+    <category name="edge_cases" difficulty="expert">
+
+        <scenario id="E001">
+            <question>I'm bringing a bike on ferry from Gorai to Borivali, then taking metro with large luggage from Borivali to CSMIA T2. Is this even possible? What are the rules and costs?</question>
+            <tools_used>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_answer>
+                <summary>**FEASIBILITY ANALYSIS - Ferry + Bike + Metro + Luggage:**
+
+**FERRY SEGMENT (Gorai → Borivali):**
+✓ Bikes ALLOWED on Gorai-Borivali ferry
+- Fare: ₹10 (passenger) + bike charge (if any)
+- Frequency: Every 5 minutes
+- Journey: 5 minutes
+- Operating: 05:30 AM - 11:45 AM
+
+**PROBLEM**: 
+✗ **BIKES NOT ALLOWED ON METRO**
+- Mumbai Metro doesn't permit two-wheelers
+- No provisions for vehicle transport
+
+**LUGGAGE ON METRO:**
+? Large luggage policies vary
+- Generally allowed but may need extra space
+- Avoid peak hours
+- No official extra charge but may face issues
+
+**VERDICT**: 
+**NOT FEASIBLE** - You cannot take bike on metro. Options:
+1. Leave bike at Borivali, take metro with luggage only
+2. Park bike securely near Borivali metro station
+3. Take taxi with bike carrier (expensive but possible)
+4. Ride bike to airport (not recommended with luggage)
+
+**RECOMMENDED PLAN:**
+- Ferry with bike to Borivali (₹10)
+- Park/secure bike at Borivali
+- Metro with luggage to CSMIA T2 (₹50-60)
+- Total: ₹60-70 + parking fees</summary>
+            </expected_answer>
+        </scenario>
+
+        <scenario id="E002">
+            <question>What if there's a transport strike? Show me ALL alternatives between Malad and Fort including ferries, metros, trains, walking distances, and average costs if I need to get to work somehow.</question>
+            <tools_used>
+                <tool>fare_lookup</tool>
+                <tool>fare_lookup</tool>
+                <tool>ferry_schedule_lookup</tool>
+                <tool>traffic_sentiment_search</tool>
+                <tool>penalty_semantic_lookup</tool>
+            </tools_used>
+            <expected_answer>
+                <summary>**STRIKE CONTINGENCY PLAN: Malad → Fort (~25km)**
+
+**ASSUMPTION**: Buses, taxis, autos on strike. Only metro/trains/private vehicles/ferries/walking operational.
+
+**OPTION 1 - METRO (If running):**
+- Malad West → Lower Malad → Goregaon West (Line 2A/7)
+- Then connections via Line 1 or Line 3 to reach Fort area
+- Cost: ₹60-80
+- Time: 60-75 minutes with changes
+- **STATUS**: Check if metro workers also striking
+
+**OPTION 2 - LOCAL TRAIN (If running):**
+- Malad → Churchgate (Western Line)
+- Direct connection
+- Cost: ₹10-20 (season ticket)
+- Time: 45-60 minutes
+- **STATUS**: Railways usually run even during strikes
+
+**OPTION 3 - FERRY NETWORK:**
+- No direct ferry Malad → Fort
+- Possible: Malad to coast → ferry to South Mumbai
+- **IMPRACTICAL**: Too indirect
+
+**OPTION 4 - SHARE/CARPOOL:**
+- Private vehicles not affected by strike
+- Apps like BlaBlaCar, QuickRide
+- Cost: ₹100-200 shared
+- **BEST IF PUBLIC TRANSPORT DOWN**
+
+**OPTION 5 - TWO-WHEELER:**
+- If you have bike/scooter
+- Cost: ₹80-100 fuel
+- Time: 60-90 minutes (traffic-dependent)
+- Risk: Helmet mandatory, penalties apply
+
+**OPTION 6 - WALK + TRANSPORT COMBO:**
+- Walk to nearest operational transport
+- Then proceed
+- Walking 25km: 5-6 hours (NOT feasible for full distance)
+
+**STRIKE-SPECIFIC INTELLIGENCE:**
+- Check traffic_sentiment_search for strike updates
+- Look for "Mumbai bandh" or "transport strike" posts
+- Plan alternative day before if strike announced
+
+**RECOMMENDED STRIKE PLAN:**
+1. **Day Before**: Check strike news, plan WFH if possible
+2. **Primary**: Local train (usually unaffected)
+3. **Backup**: Metro if running
+4. **Emergency**: Carpool/share rides
+5. **Last Resort**: Stay near workplace night before
+
+**COST COMPARISON:**
+- Normal: ₹15-60 (public transport)
+- Strike: ₹100-200 (private arrangements)
+- Budget 3x normal time for journey</summary>
+            </expected_answer>
+        </scenario>
+
+    </category>
+
+    <!-- VALIDATION SCENARIOS -->
+    <category name="validation_tests" difficulty="qa">
+        
+        <scenario id="V001">
+            <question>Calculate fare from "versova" (typo) to "ghatkoper" (typo)</question>
+            <purpose>Test fuzzy matching capability</purpose>
+            <expected_behavior>System should match "versova" → "Versova" and "ghatkoper" → "Ghatkopar" with similarity score >= 85</expected_behavior>
+        </scenario>
+
+        <scenario id="V002">
+            <question>Show me ferries with limit=-5</question>
+            <purpose>Test input validation</purpose>
+            <expected_behavior>ValueError: limit must be greater than zero</expected_behavior>
+        </scenario>
+
+        <scenario id="V003">
+            <question>Track flight with airline="INVALID_CODE"</question>
+            <purpose>Test invalid ICAO codes</purpose>
+            <expected_behavior>Returns empty results with metadata showing 0 flights available</expected_behavior>
+        </scenario>
+
+        <scenario id="V004">
+            <question>Get penalty for empty query ""</question>
+            <purpose>Test empty input handling</purpose>
+            <expected_behavior>ValueError: query cannot be empty</expected_behavior>
+        </scenario>
+
+        <scenario id="V005">
+            <question>Airport schedule for "XXXX" (invalid ICAO)</question>
+            <purpose>Test invalid airport code</purpose>
+            <expected_behavior>AirportErrorResponse with error message</expected_behavior>
+        </scenario>
+
+    </category>
+
+</test_scenarios>

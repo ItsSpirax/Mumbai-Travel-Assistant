@@ -1,7 +1,11 @@
+BeautifulSoup4==4.14.2
 fastmcp==2.12.5
+FlightRadarAPI==1.4.0
 httpx==0.28.1
 numpy==2.3.4
 redis==6.4.0
 redisvl==0.10.0
 requests==2.32.5
+sentence-transformers==5.1.2
+thefuzz==0.22.1
 uvicorn==0.38.0

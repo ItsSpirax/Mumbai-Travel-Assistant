@@ -1,9 +1,23 @@
+from importlib import import_module
+
 from starlette.requests import Request
 from starlette.responses import Response
 
 from app import mcp
 
-from tools.greet import hello
+TOOL_MODULES = [
+    "tools.calculate_mumbai_transport_fare",
+    "tools.fetch_station_details",
+    "tools.fetch_airport_details",
+    "tools.get_flight_status",
+    "tools.get_traffic_conditions",
+    "tools.get_penalty_details",
+    "tools.get_ferry_details",
+    "tools.get_local_train_status",
+]
+
+for module_name in TOOL_MODULES:
+    import_module(module_name)
 
 
 @mcp.custom_route(path="/", methods=["GET"])
